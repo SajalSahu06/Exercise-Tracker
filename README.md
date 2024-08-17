@@ -38,7 +38,7 @@ MongoDB (for the backend)
 
 Follow the following steps to get development environment running.
 
-* Clone _'MERN-BUS-APP.git'_ repository from GitHub
+* Clone _'Exercise-Tracker.git'_ repository from GitHub
 
   ```bash
   git clone https://github.com/SajalSahu06/Exercise-Tracker.git
