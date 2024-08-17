@@ -23,7 +23,7 @@ export default class CreateExercise extends Component {
   }
 
   componentDidMount() {
-    axios.get("http://localhost:5000/users/").then((response) => {
+    axios.get("https://exercise-tracker-4.onrender.com/users/").then((response) => {
       if (response.data.length > 0) {
         this.setState({
           users: response.data.map((user) => user.username),
@@ -67,7 +67,7 @@ export default class CreateExercise extends Component {
     };
 
     axios
-      .post("http://localhost:5000/exercises/add", exercise)
+      .post("https://exercise-tracker-4.onrender.com/exercises/add", exercise)
       .then((res) => console.log(res.data))
       .catch((err) => window.alert(err));
 
